@@ -1,0 +1,110 @@
+
+body {
+background: #000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+line-height: 18px;
+color: #aaa;
+}
+
+img { border: none; }
+a { color: #97C4FF; text-decoration: none;}
+a:hover { text-decoration: none; color : #aaa; }
+
+#wrap {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  gap: 20px 20px;
+  margin: auto;
+  height: auto;
+  width: 70%;
+  }
+
+#header { 
+  display: flex;
+  flex-direction: column-reverse;
+  border: 5px solid #222;
+  height: auto;
+  background: #333;
+  grid-column-start: 1;
+  grid-column-end: 11;
+  }
+#header h1 {
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: -3px;
+  text-decoration: none;
+  font-family: 'Monofett', cursive;
+  text-align: center;
+  padding-left: 10px;
+  color: #aaa;
+  }
+#header h1 a {
+  color: #aaa;
+  text-decoration: none;
+  }
+#header h1 a:hover {
+  color: #aaa;
+  text-decoration: none;
+  }
+#klogo {
+  height: auto;
+  width: 20%;
+  align-self: center;
+  padding-top: 10px;
+  }
+
+.left {
+  margin-top: 10px;
+  width: auto;
+  float: left;
+  text-align: justify;
+  border: 5px solid #222;
+  padding: 10px;
+  background: #333;
+  grid-column-start: 1;
+  grid-column-end: 10;
+  }
+.left h2 {
+  color: #FF4800;
+  font-size: 24px;
+  letter-spacing: -3px;
+  font-weight: 100;
+  padding : 10px 0 15px 0;
+  }
+
+.right {
+  margin-top: 10px;
+  width: auto;
+  float: right;
+  border: 5px solid #222;
+  font-size: 12px;
+  color:rgb(209, 255, 6);
+  padding: 15px;
+  background: #333;
+  grid-column-start: 10;
+  grid-column-end: 11;
+  }
+.right ul {
+  list-style-type: square;
+  padding: 5px 15px 10px 20px;
+  color: #59799F;
+ }
+.right h2 {
+  height: 80px;
+  font-size: 12px;
+  color: #666;
+  line-height: 30px;
+  }
+.right a { text-decoration: none }
+
+.alapalkki {
+  grid-column-start: 1;
+  grid-column-end: 11;
+  border: 5px solid #222;
+  background: #333;
+  color:rgb(209, 255, 6);
+  text-align: center;
+  padding: 5px;
+  }
