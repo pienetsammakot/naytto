@@ -1,4 +1,4 @@
-
+/* SIVU */
 body {
 background: #000;
 font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -7,10 +7,12 @@ line-height: 18px;
 color: #aaa;
 }
 
+/* KUVAT */
 img { border: none; }
 a { color: #97C4FF; text-decoration: none;}
 a:hover { text-decoration: none; color : #aaa; }
 
+/* SISÄLLÖN SISÄLLÄÄN PITÄVÄ CONTAINER */
 #wrap {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -21,6 +23,7 @@ a:hover { text-decoration: none; color : #aaa; }
   width: 70%;
   }
 
+/* HEADER */
 #header { 
   display: flex;
   flex-direction: column-reverse;
@@ -55,6 +58,7 @@ a:hover { text-decoration: none; color : #aaa; }
   padding-top: 10px;
   }
 
+/* KYSELY */
 .left {
   width: auto;
   float: left;
@@ -109,6 +113,7 @@ a:hover { text-decoration: none; color : #aaa; }
  text-align: center;
 }
 
+/* SIVUPALKKI */
 .right {
   width: auto;
   float: right;
@@ -133,6 +138,7 @@ a:hover { text-decoration: none; color : #aaa; }
   }
 .right a { text-decoration: none }
 
+/* FOOTER */
 .alapalkki {
   grid-column-start: 1;
   grid-column-end: 11;
