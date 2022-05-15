@@ -161,7 +161,17 @@ a:hover { text-decoration: none; color : #aaa; }
       grid-area: header;
       height: auto;
       width: 100%;
-      
+    }
+    #otsikko {
+      visibility: hidden;
+      position: relative;
+    }
+    #otsikko:after {
+      visibility: visible;
+      position: absolute;
+      content: "Ammatin";
+      content: "valinta";
+      content: "testi";
     }
     .left {
       grid-area: vasen;
