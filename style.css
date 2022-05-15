@@ -165,6 +165,15 @@ a:hover { text-decoration: none; color : #aaa; }
       width: 100%;
       
     }
+    #otsikko {
+      visibility: hidden;
+      position: relative;
+    }
+    #otsikko:after {
+      visibility: visible;
+      position: absolute;
+      content: "Ammatin<br>valinta<br>testi";
+    }
     .left {
       /*grid-area: vasen;*/
       display: block;
