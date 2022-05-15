@@ -167,13 +167,17 @@ a:hover { text-decoration: none; color : #aaa; }
     .left {
       grid-area: vasen;
       width: 100%;
+      height: auto;
     }
     .right {
       grid-area: oikea;
       width: 100%;
+      height: auto;
+      text-align: center;
     }
     .alapalkki {
       grid-area: footer;
       width: 100%;
+      height: auto;
     }
   }
