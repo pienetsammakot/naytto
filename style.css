@@ -151,33 +151,37 @@ a:hover { text-decoration: none; color : #aaa; }
 
   @media screen and (-webkit-device-pixel-ratio:3) {
     #wrap {
-      display: grid;
-      grid-template-areas: 'header'
+      display: block;
+      /*grid-template-areas: 'header'
                            'vasen'
                            'oikea'
-                           'footer';
+                           'footer';*/
      width: 100%;
      margin: 0;
     }
     #header {
-      grid-area: header;
+      /*grid-area: header;*/
       height: auto;
       width: 100%;
       
     }
     .left {
-      grid-area: vasen;
+      /*grid-area: vasen;*/
+      display: block;
       width: 100%;
       height: auto;
+      text-align: center;
     }
     .right {
-      grid-area: oikea;
+      display: none;
+      /*grid-area: oikea;*/
       width: 100%;
       height: auto;
       text-align: center;
     }
     .alapalkki {
-      grid-area: footer;
+      display: none;
+      /*grid-area: footer;*/
       width: 100%;
       height: auto;
     }
