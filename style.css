@@ -156,7 +156,7 @@ a:hover { text-decoration: none; color : #aaa; }
                            'vasen'
                            'oikea'
                            'footer';
-     width: 480px;
+     width: 100%;
     }
     #header {
       grid-area: header;
