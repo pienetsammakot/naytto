@@ -149,7 +149,7 @@ a:hover { text-decoration: none; color : #aaa; }
   padding: 5px;
   }
 
-  @media (max-width: 480px) {
+  @media screen and (-webkit-device-pixel-ratio:3) {
     #wrap {
       display: grid;
       grid-template-areas: 'header'
