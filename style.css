@@ -148,3 +148,11 @@ a:hover { text-decoration: none; color : #aaa; }
   text-align: center;
   padding: 5px;
   }
+
+  @media (max-width: 500px) {
+    #wrap {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto auto auto;
+    }
+  }
