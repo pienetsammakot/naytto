@@ -151,48 +151,28 @@ a:hover { text-decoration: none; color : #aaa; }
 
   @media screen and (-webkit-device-pixel-ratio:3) {
     #wrap {
-      /*display: block;*/
-      /*grid-template-areas: 'header'
-                           'vasen'
-                           'oikea'
-                           'footer';*/
+      display: grid;
+      grid-template-areas: 'header'
+                           'vasen';
      width: 100%;
-     margin: 0;
+     align-content; space-around;
     }
     #header {
-      /*grid-area: header;*/
-      display: block;
+      grid-area: header;
       height: auto;
       width: 100%;
       
     }
-    /*#otsikko {
-      visibility: hidden;
-      position: relative;
-    }
-    #otsikko:after {
-      visibility: visible;
-      position: absolute;
-      content: "Ammatin<br>valinta<br>testi";
-    }*/
     .left {
-      /*grid-area: vasen;*/
-      display: inline-block;
-      width: 100%;
+      grid-area: vasen;
+      width: auto;
       height: auto;
       text-align: center;
     }
     .right {
       display: none;
-      /*grid-area: oikea;*/
-      width: 100%;
-      height: auto;
-      text-align: center;
     }
     .alapalkki {
       display: none;
-      /*grid-area: footer;*/
-      width: 100%;
-      height: auto;
     }
   }
