@@ -154,8 +154,8 @@ a:hover { text-decoration: none; color : #aaa; }
       display: grid;
       grid-template-areas: 'header'
                            'vasen';
-     width: 100%;
-     align-content: space-around;
+     /*width: 100%;*/
+     align-content: center;
     }
     #header {
       grid-area: header;
