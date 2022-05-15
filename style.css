@@ -151,7 +151,7 @@ a:hover { text-decoration: none; color : #aaa; }
 
   @media screen and (-webkit-device-pixel-ratio:3) {
     #wrap {
-      display: block;
+      /*display: block;*/
       /*grid-template-areas: 'header'
                            'vasen'
                            'oikea'
@@ -161,11 +161,12 @@ a:hover { text-decoration: none; color : #aaa; }
     }
     #header {
       /*grid-area: header;*/
+      display: block;
       height: auto;
       width: 100%;
       
     }
-    #otsikko {
+    /*#otsikko {
       visibility: hidden;
       position: relative;
     }
@@ -173,10 +174,10 @@ a:hover { text-decoration: none; color : #aaa; }
       visibility: visible;
       position: absolute;
       content: "Ammatin<br>valinta<br>testi";
-    }
+    }*/
     .left {
       /*grid-area: vasen;*/
-      display: block;
+      display: inline-block;
       width: 100%;
       height: auto;
       text-align: center;
