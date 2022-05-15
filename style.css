@@ -175,6 +175,9 @@ a:hover { text-decoration: none; color : #aaa; }
       height: auto;
       text-align: center;
     }*/
+    #wrap {
+      width: 100%;
+    }
     #header {
       display: block;
     }
