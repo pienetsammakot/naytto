@@ -149,10 +149,30 @@ a:hover { text-decoration: none; color : #aaa; }
   padding: 5px;
   }
 
+
   @media (max-width: 500px) {
     #wrap {
       display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: auto auto auto auto;
+      grid-template-areas: 'header'
+                           'vasen'
+                           'oikea'
+                           'footer';
+
+    }
+    #header {
+      grid-area: header;
+      width: auto;
+    }
+    .left {
+      grid-area: vasen;
+      width: auto;
+    }
+    .right {
+      grid-area: oikea;
+      width: auto;
+    }
+    .alapalkki {
+      grid-area: footer;
+      width: auto;
     }
   }
