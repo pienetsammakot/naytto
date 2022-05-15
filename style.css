@@ -157,11 +157,12 @@ a:hover { text-decoration: none; color : #aaa; }
                            'vasen'
                            'oikea'
                            'footer';
+      width: 100%;
 
     }
     #header {
       grid-area: header;
-      width: auto;
+      width: 100%;
     }
     .left {
       grid-area: vasen;
