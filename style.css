@@ -150,12 +150,12 @@ a:hover { text-decoration: none; color : #aaa; }
   }
 
   @media screen and (-webkit-device-pixel-ratio:3) {
-   /* #wrap {
+    #wrap {
       display: grid;
       grid-template-areas: 'header'
                            'vasen';
-     /*width: 100%;*/
-    /* align-content: center;
+     width: 100%;
+     align-content: center;
      margin-top: 100px;
      margin-left: 1px;
       margin-right: 1px;
@@ -174,15 +174,6 @@ a:hover { text-decoration: none; color : #aaa; }
       width: auto;
       height: auto;
       text-align: center;
-    }*/
-    #wrap {
-      width: 100%;
-    }
-    #header {
-      display: block;
-    }
-    .left {
-      display: block;
     }
     .right {
       display: none;
