@@ -162,7 +162,7 @@ a:hover { text-decoration: none; color : #aaa; }
     #header {
       grid-area: header;
       height: auto;
-      width: 100%;
+      width: 70%;
       padding: none;
     }
     #header h1 {
