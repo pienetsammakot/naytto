@@ -158,11 +158,12 @@ a:hover { text-decoration: none; color : #aaa; }
      margin-top: 100px;
      margin-left: 1px;
       margin-right: 1px;
+      width: 80%;
     }
     #header {
       grid-area: header;
       height: auto;
-      width: 100%;
+      width: auto;
       padding: none;
     }
     #header h1 {
