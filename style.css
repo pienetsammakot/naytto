@@ -162,11 +162,12 @@ a:hover { text-decoration: none; color : #aaa; }
     #header {
       grid-area: header;
       height: auto;
-      width: 70%;
+      width: 100%;
       padding: none;
     }
     #header h1 {
       padding: none;
+      font-size: 32px;
     }
     .left {
       grid-area: vasen;
